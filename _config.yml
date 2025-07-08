@@ -1,1 +1,51 @@
+# Site settings
+title: "Your Name - Data Science Portfolio"
+description: "Showcasing my data science projects and web applications"
+url: "https://asmuie-analytics.github.io"
+baseurl: "/projects"
 
+# Theme
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Author info
+author:
+  name: "Your Name"
+  bio: "Data Scientist & Web Developer"
+  location: "Your Location"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/asmuie-analytics"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/yourprofile"
+
+# Collections for projects
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-remote-theme
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
