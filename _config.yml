@@ -1,30 +1,15 @@
-title: "Asmuie Analytics"
-description: "Showcasing my data science projects and web applications"
-url: "https://asmuie-analytics.github.io"
-baseurl: "/projects"
+# GitHub Pages + Remote Theme Configuration
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-theme: minima
+# Site Settings
+title: "Data Science Portfolio"
+name: "Your Name"
+description: "Statistics and Programming for Data Science"
+url: "https://asmuie-analytics.github.io" # your GitHub Pages URL
+baseurl: "" # leave empty if this is your main site
 
-collections:
-  projects:
-    output: true
-    permalink: /:collection/:name/
-
-# Add to your _config.yml
-plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-
-# Custom CSS and JS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Include custom assets
-include:
-  - assets
-
-  # Site navigation
+# Site navigation - THIS IS KEY!
 main:
   - title: "Home"
     url: https://asmuie-analytics.github.io/
@@ -32,3 +17,34 @@ main:
     url: mailto:asmui@uitm.edu.my
   - title: "View Courses"
     url: https://asmuie-analytics.github.io/modules/
+
+# Author Profile
+author:
+  name: "Asmui Rahim"
+  bio: "Data Science Enthusiast, A Philomath"
+  email: "asmui@uitm.edu.my"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/asmuie-analytics"
+
+# Jekyll Plugins (GitHub Pages compatible)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Other settings
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
