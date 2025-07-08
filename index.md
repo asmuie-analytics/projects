@@ -6,7 +6,7 @@ title: "Data Science Portfolio"
 
 # Welcome to My Portfolio
 
-I'm a data scientist and web developer passionate about turning data into insights and building interactive applications. Here you'll find a showcase of my latest projects, from machine learning models to web applications.
+I'm a data enthusiast and web developer passionate about turning data into insights and building interactive applications. Here you'll find a showcase of my latest projects, from machine learning models to web applications.
 
 ## Featured Projects
 
