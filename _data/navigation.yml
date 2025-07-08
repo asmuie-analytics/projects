@@ -1,1 +1,8 @@
-
+# _data/navigation.yml
+main:
+  - title: "Home"
+    url: https://asmuie-analytics.github.io/
+  - title: "Contact Me"
+    url: mailto:asmui@uitm.edu.my
+  - title: "View Courses"
+    url: https://asmuie-analytics.github.io/modules/
