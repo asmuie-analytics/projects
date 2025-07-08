@@ -3,7 +3,6 @@ layout: home
 author_profile: true
 title: " "
 ---
-
 <style>
 /* Modern Hamburger Menu Styles - Black & White */
 .greedy-nav {
