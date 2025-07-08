@@ -1,7 +1,7 @@
 ---
 layout: home
 author_profile: true
-title: "Data Science Portfolio"
+title: " "
 ---
 
 # Welcome to My Data Science Portfolio
@@ -82,6 +82,65 @@ Interested in learning more about data science or collaborating on research proj
 
 <div class="contact-buttons">
   <a href="https://asmuie-analytics.github.io/" class="btn btn--primary" target="_blank">GitHub Pages</a>
-  <a href="mailto:your.email@university.edu" class="btn btn--info">Email Me</a>
+  <a href="mailto:asmui@uitm.edu.my" class="btn btn--info">Email Me</a>
   <a href="{{ '/teaching/' | relative_url }}" class="btn btn--success">View Courses</a>
 </div>
+
+---
+
+<style>
+.project-item, .post-item {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  border-left: 4px solid #007bff;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.tech-item {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-top: 3px solid #28a745;
+}
+
+.tech-item h4 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.navigation-buttons, .contact-buttons {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.navigation-buttons .btn, .contact-buttons .btn {
+  margin: 0.5rem;
+  display: inline-block;
+}
+
+.btn--large {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .tech-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .navigation-buttons .btn, .contact-buttons .btn {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
+</style>
