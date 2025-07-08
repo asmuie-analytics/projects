@@ -1,4 +1,4 @@
-title: "Your Name - Data Science Portfolio"
+title: "Asmuie Analytics - Data Science Portfolio"
 description: "Showcasing my data science projects and web applications"
 url: "https://asmuie-analytics.github.io"
 baseurl: "/projects"
@@ -12,3 +12,8 @@ collections:
 
 plugins:
   - jekyll-feed
+
+# Disable default navigation
+masthead_title: " "
+breadcrumbs: false
+
