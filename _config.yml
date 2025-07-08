@@ -30,6 +30,17 @@ author:
 
 # Jekyll Plugins (GitHub Pages compatible)
 plugins:
+
+# Disable default navigation
+masthead_title: " "
+breadcrumbs: false
+
+# Or if using Minimal Mistakes, comment out or remove:
+# main:
+#   - title: "Home"
+#     url: /
+#   - title: "About"
+#     url: /about/
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
