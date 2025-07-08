@@ -4,9 +4,13 @@ author_profile: true
 title: " "
 ---
 
-# Welcome to My Data Science Portfolio
+<link rel="stylesheet" href="{{ '/assets/css/navigation.css' | relative_url }}">
 
-I'm a lecturer specializing in statistics and programming for data science, passionate about teaching students how to transform data into meaningful insights. Here you'll find my research projects, teaching materials, and demonstrations using R and Python.
+{% include navigation.html %}
+
+<script src="{{ '/assets/js/navigation.js' | relative_url }}"></script>
+
+# Welcome to My Data Science Portfolio
 
 ## About My Teaching
 
