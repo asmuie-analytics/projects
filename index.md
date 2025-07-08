@@ -83,7 +83,7 @@ Interested in learning more about data science or collaborating on research proj
 <div class="contact-buttons">
   <a href="https://asmuie-analytics.github.io/" class="btn btn--primary" target="_blank">GitHub Pages</a>
   <a href="mailto:asmui@uitm.edu.my" class="btn btn--info">Email Me</a>
-  <a href="{{ '/teaching/' | relative_url }}" class="btn btn--success">View Courses</a>
+  <a href="https://asmuie-analytics.github.io/modules/" class="btn btn--success">View Courses</a>
 </div>
 
 ---
