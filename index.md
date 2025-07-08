@@ -1,7 +1,7 @@
 ---
 layout: home
 author_profile: true
-title: "Data Science Portfolio"
+title: " "
 ---
 
 # Welcome to My Data Science Portfolio
