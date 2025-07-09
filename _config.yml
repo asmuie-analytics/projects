@@ -13,7 +13,3 @@ collections:
 plugins:
   - jekyll-feed
 
-# Disable default navigation
-masthead_title: " "
-breadcrumbs: false
-
