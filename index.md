@@ -390,7 +390,7 @@ I focus on empowering students through hands-on learning in:
 
 <div class="navigation-buttons">
   <a href="{{ '/projects/' | relative_url }}" class="btn btn--large btn--primary">View All Projects</a>
-  <a href="https://asmuie-analytics.github.io/" class="btn btn--large btn--info" target="_blank">Visit My GitHub Pages</a>
+  <a href="https://asmui-notes.github.io/" class="btn btn--large btn--info" target="_blank">Visit My GitHub Pages</a>
 </div>
 
 ## Recent Research & Teaching Materials
